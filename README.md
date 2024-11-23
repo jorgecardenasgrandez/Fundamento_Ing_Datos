@@ -14,6 +14,9 @@ Este proceso manual de búsqueda puede ser lento e ineficiente, afectando la cap
 
 La solución permite centralizar y automatizar la extracción de normativas desde fuentes oficiales, procesando grandes volúmenes de información y utilizando inteligencia artificial para estructurar y analizar los datos. Esto responde a la necesidad de los profesionales de contar con una plataforma unificada que facilite la búsqueda rápida y precisa de normas, mejorando la eficiencia, reduciendo tiempos de respuesta y asegurando un respaldo sólido frente a fiscalizaciones.
 
+![image (3)](https://github.com/user-attachments/assets/1aa7c54f-922b-4a1f-ad88-f5889efb1a9b)
+
+
 # Tecnologias
 
 La solución propuesta, basada en la arquitectura mostrada, aborda la problemática de centralizar y facilitar el acceso a la información normativa dispersa utilizando las siguientes tecnologías:
