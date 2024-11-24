@@ -14,6 +14,9 @@ Este proceso manual de búsqueda puede ser lento e ineficiente, afectando la cap
 
 La solución permite centralizar y automatizar la extracción de normativas desde fuentes oficiales, procesando grandes volúmenes de información y utilizando inteligencia artificial para estructurar y analizar los datos. Esto responde a la necesidad de los profesionales de contar con una plataforma unificada que facilite la búsqueda rápida y precisa de normas, mejorando la eficiencia, reduciendo tiempos de respuesta y asegurando un respaldo sólido frente a fiscalizaciones.
 
+![image (3)](https://github.com/user-attachments/assets/1aa7c54f-922b-4a1f-ad88-f5889efb1a9b)
+
+
 # Tecnologias
 
 La solución propuesta, basada en la arquitectura mostrada, aborda la problemática de centralizar y facilitar el acceso a la información normativa dispersa utilizando las siguientes tecnologías:
@@ -35,7 +38,7 @@ La solución propuesta, basada en la arquitectura mostrada, aborda la problemát
 
 # Codigo fuente
 
-Se ha ejemplificado en local el proceso ETL en la nube siguiendo la arquitectura medallón 
+Se ha ejemplificado en local el proceso ELT en local siguiendo la arquitectura medallón 
 * El flujo inicia con la extracción de datos desde la página de resoluciones de la SUNAT, almacenándolos en la carpeta **Bronze**, donde se guardan tanto los datos normativos como los documentos en su formato bruto. 
 * Luego, en la carpeta **Silver**, se realiza el procesamiento, eliminando columnas innecesarias y limpiando los datos; además, en el caso de los documentos, su contenido se estructura convirtiendo cada párrafo en una fila dentro de una tabla. 
 * Finalmente, en la carpeta **Gold**, se integran las entidades procesadas, combinando la información normativa y el contenido de los documentos en una única tabla consolidada, lista para su análisis y uso.
